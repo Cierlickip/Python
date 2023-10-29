@@ -24,7 +24,7 @@
 
 # Zadanie 3.3 - Wypisać w pętli liczby od 0 do 30 z wyjątkiem liczb podzielnych przez 3.
 for x in range(0, 31):
-    if x % 3 == 0:
+    if x % 3 != 0:
         print(x)
 
 # Zadanie 3.4 - Napisać program pobierający w pętli od użytkownika liczbę rzeczywistą x (typ float) i wypisujący x oraz trzecią potęgę x. Zatrzymanie programu następuje po wpisaniu z klawiatury stop. Jeżeli użytkownik wpisze napis zamiast liczby, to program ma wypisać komunikat o błędzie i kontynuować pracę.
